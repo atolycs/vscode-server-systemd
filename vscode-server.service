@@ -1,0 +1,11 @@
+[Unit]
+Description=Visual Studio Code Server
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/code serve-web \
+          --without-connection-token \
+          --accept-server-license-terms \
+          --host 0.0.0.0
+[Install]
+WantedBy=multi-user.target
