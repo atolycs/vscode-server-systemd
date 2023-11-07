@@ -14,7 +14,7 @@ Visual Studio code Systemd Unit file (Unofficial)
 
 ```shell
 $ tar xvfz vscode_cli_alpine_x64_cli.tar.gz
-$ sudo cp code /usr/local/bin
+$ sudo cp code /usr/local/bin/code-cli
 ```
 
 * Install User unit

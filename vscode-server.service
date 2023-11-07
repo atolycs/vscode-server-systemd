@@ -3,7 +3,7 @@ Description=Visual Studio Code Server
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/code serve-web \
+ExecStart=/usr/local/bin/code-cli serve-web \
           --without-connection-token \
           --accept-server-license-terms \
           --host 0.0.0.0
